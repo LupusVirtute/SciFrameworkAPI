@@ -8,8 +8,8 @@ namespace SciFramework.Models.User
 	{
 		private string _uid;
 		private string _nick;
-		private string _email;
 
+		private string _email;
 		private string _password;
 		private string _salt;
 
@@ -17,7 +17,6 @@ namespace SciFramework.Models.User
 
 		public string UID => _uid;
 		public string NickName => _nick;
-		public string Email => _email;
 		public string B64Image => _b64ProfileImage;
 
 		public bool IsPasswordCorrect(string password)
