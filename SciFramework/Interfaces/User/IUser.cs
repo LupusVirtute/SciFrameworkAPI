@@ -11,10 +11,6 @@
 		/// User nick name
 		/// </summary>
 		string NickName { get; }
-		/// <summary>
-		/// User email
-		/// </summary>
-		string Email { get; }
 
 		/// <summary>
 		/// B64 Image string

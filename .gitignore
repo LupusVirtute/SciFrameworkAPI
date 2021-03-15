@@ -1,3 +1,5 @@
 .vs/
 SciFramework/bin/
 SciFramework/obj/
+UnitTests/bin
+UnitTests/obj
