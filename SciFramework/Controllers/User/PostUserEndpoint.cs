@@ -16,7 +16,7 @@ namespace SciFramework.Controllers.User
         }
 
         [HttpPost("register")]
-        public ActionResult<bool> Register(string email)
+        public ActionResult<bool> Register(string email, string password)
         {
             bool isEmailAlreadyRegistered;
 
