@@ -13,19 +13,13 @@ namespace SciFramework.Models.Partner
 		public string name
 		{
 			get => _name;
-			set
-			{
-				_name = value;
-			}
+			set => _name = value;
 		}
 
 		public string description
         {
 			get => _description;
-			set
-            {
-				_description = value;
-            }
+			set => _description = value;
         }
 
 		public Partner(string name,string description)
