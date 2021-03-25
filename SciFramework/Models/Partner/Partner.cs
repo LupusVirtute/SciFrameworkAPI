@@ -1,9 +1,10 @@
 ﻿using System;
+using SciFramework.Abstract.Database;
 
 namespace SciFramework.Models.Partner
 {
 	public class Partner : Saveable
-	{
+    {
 
 		private string _name;
 		private string _description;
